@@ -1,15 +1,13 @@
 package pe.edu.cibertec.patitas_backend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import pe.edu.cibertec.patitas_backend.dto.LoginRequestDTO;
 import pe.edu.cibertec.patitas_backend.dto.LoginResponseDTO;
 import pe.edu.cibertec.patitas_backend.service.AutenticacionService;
 
 import java.io.IOException;
+
 
 @RestController
 @RequestMapping("/autenticacion")
