@@ -3,13 +3,19 @@ package pe.edu.cibertec.patitas_backend.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import pe.edu.cibertec.patitas_backend.dto.LoginRequestDTO;
+import pe.edu.cibertec.patitas_backend.dto.LogoutRequestDTO;
 import pe.edu.cibertec.patitas_backend.service.AutenticacionService;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 @Service
 public class AutenticacionServiceImpl implements AutenticacionService {
@@ -47,7 +53,9 @@ public class AutenticacionServiceImpl implements AutenticacionService {
             throw new IOException(e);
         }
 
-
         return datosUsuario;
     }
+
+
 }
+
