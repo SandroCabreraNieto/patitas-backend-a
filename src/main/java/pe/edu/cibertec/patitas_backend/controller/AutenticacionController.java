@@ -70,7 +70,7 @@ public class AutenticacionController {
         }
     }
 
-    // Método para registrar en un archivo
+    //METODO PARA REGISTRAR CIERRE DE SESION
     private void registrarCierreSesion(LogoutRequestDTO logoutRequestDTO) throws IOException {
         String archivoRegistro = "cierreSesion.txt";
         try (FileWriter writer = new FileWriter(archivoRegistro, true)) {

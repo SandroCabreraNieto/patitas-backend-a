@@ -1,11 +1,1 @@
-Tipo Documento: null, Número Documento: null, FechaCierreSesion: 12/10/2024 23:48:20
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 12/10/2024 23:49:20
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 12/10/2024 23:53:31
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 12/10/2024 23:55:53
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 12/10/2024 23:55:56
-Tipo Documento: null, Número Documento: null, FechaCierreSesion: 12/10/2024 23:58:00
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 13/10/2024 00:00:19
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 13/10/2024 00:01:24
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 13/10/2024 00:01:52
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 13/10/2024 00:02:49
-Tipo Documento: 1, Número Documento: 44444441, FechaCierreSesion: 13/10/2024 00:04:23
+Tipo Documento: 1, Número Documento: 77734931, FechaCierreSesion: 14/10/2024 22:34:27
